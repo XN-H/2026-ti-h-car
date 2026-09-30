@@ -1,0 +1,24 @@
+# Local agent state and temporary render files
+.agents/
+.codex/
+tmp/
+**/tmp/
+
+# Report drafts, QA exports, and reference scans
+report_work/backups/
+report_work/qa/
+report_work/s28a_qa/
+report_work/circuit_sources/
+report_work/artifact.md
+
+# Poster projects and exports are kept locally only
+poster_pd_challenge/
+poster_pd_challenge_v2/
+output/poster/
+output/pdf/
+
+# Local editor and build artifacts
+*.tmp
+*.bak
+__pycache__/
+node_modules/
